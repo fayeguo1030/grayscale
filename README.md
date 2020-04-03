@@ -1,7 +1,7 @@
 # 纪念日网站变灰浏览器全兼容方案
 
-```
 # css部分
+```
 html{
 filter: grayscale(100%);
 -webkit-filter: grayscale(100%);
@@ -17,7 +17,9 @@ body{
     -webkit-filter:grayscale(100%);/*chrome*/
     filter:gray; /*IE7-9*/
 }
+```
 #js部分
+```
 <script type="text/javascript" src="./grayscale.js"></script>
 <script type="text/javascript">
 window.onload=function(){
