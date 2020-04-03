@@ -1,6 +1,7 @@
 # 纪念日网站变灰浏览器全兼容方案
 
-```html{
+```
+html{
 filter: grayscale(100%);
 -webkit-filter: grayscale(100%);
 -moz-filter: grayscale(100%);
