@@ -18,7 +18,7 @@ body{
     filter:gray; /*IE7-9*/
 }
 ```
-#js部分
+# js部分
 ```
 <script type="text/javascript" src="./grayscale.js"></script>
 <script type="text/javascript">
